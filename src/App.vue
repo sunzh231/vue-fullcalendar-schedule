@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <FullCalendar/>
   </div>
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld'
+import FullCalendar from './components/FullCalendar'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    FullCalendar
   }
 }
 </script>
